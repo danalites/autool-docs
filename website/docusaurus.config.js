@@ -1,11 +1,11 @@
 module.exports = {
-	title: 'Eightshift Development kit',
-	tagline: 'All the tools you need to start building a modern WordPress project, using all the latest front end development tools.',
+	title: 'AuTool scripts',
+	tagline: 'Let scripts do the trivial work, and you can focus on the important stuff.',
 	url: 'https://eightshift.com',
 	baseUrl: '/',
 	favicon: 'img/favicon.png',
-	organizationName: 'infinum',
-	projectName: 'eightshift-docs',
+	organizationName: 'danalite',
+	projectName: 'autool-docs',
 	staticDirectories: ['static'],
 	scripts: [
 		{
@@ -17,8 +17,8 @@ module.exports = {
 	themeConfig: {
 		navbar: {
 			logo: {
-				alt: 'Eightshift Development kit Logo',
-				src: 'img/eightshift-dev-kit-logo.svg',
+				alt: 'AuTool Logo',
+				src: 'img/banner.png',
 			},
 			items: [
 				{
@@ -28,8 +28,8 @@ module.exports = {
 					position: 'right',
 				},
 				{
-					to: 'docs/welcome',
-					activeBasePath: 'welcome',
+					to: 'docs/intro-install',
+					activeBasePath: 'intro-install',
 					label: 'Docs',
 					position: 'right',
 				},

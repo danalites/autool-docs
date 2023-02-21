@@ -5,7 +5,7 @@ title: Example Class
 
 [![docs-source](https://img.shields.io/badge/source-eightshift--libs-blue?style=for-the-badge&logo=php&labelColor=2a2a2a)](https://github.com/infinum/eightshift-libs)
 
-As you've already seen in the [WP-CLI](wp-cli) chapter, we have many finished features prepared for you. However, we want to make things even easier for you, so we created an example service class for you to use.
+As you've already seen in the chapter, we have many finished features prepared for you. However, we want to make things even easier for you, so we created an example service class for you to use.
 
 If you want to add a new service class to your project but don't want to write all the code manually, just use the WP-CLI command:
 

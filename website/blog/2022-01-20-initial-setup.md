@@ -12,7 +12,7 @@ As is often the case when trying out something new, you might encounter some hic
 
 > _**Last updated: 23rd August, 2022**_
 
-If you haven't already, be sure to read our official [Eightshift Docs](/docs/welcome).
+If you haven't already, be sure to read our official [Eightshift Docs](/docs/install).
 
 ## Setup
 

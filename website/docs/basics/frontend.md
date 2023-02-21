@@ -5,6 +5,10 @@ title: General
 
 [![docs-source](https://img.shields.io/badge/source-eightshift--frontend--libs-yellow?style=for-the-badge&logo=javascript&labelColor=2a2a2a)](https://github.com/infinum/eightshift-frontend-libs)
 
-In general, you can use anything as-is from the `node_modules` library, or you can modify/add the functionality in your project.
+:::warning
+Although AuTool is capable of automating any manual tasks in the games, it is not intended to be used for cheating. Please use it responsibly. We strongly discourage you from using AuTool to cheat in games.
+:::
 
-Block editor is written using React; we then use React in the block editor. You can read about blocks in this [chapter](blocks). However, there are other aspects of the project's front-end part you should know in order to use the Eightshift Boilerplate to its full potential.
+In general, you can use AuTool help you with the following tasks:
+- Special event reminders
+- Screen annotators (e.g., marking important on the screen)

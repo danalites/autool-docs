@@ -140,7 +140,7 @@ First step is to add a new attribute, options and CSS variable values in **_/src
 	}
 ```
 
-After defining the new attribute and options for the font family, we now have to add a variable to **_manifest.json_**. We can add it to the `variables` object. This approach is slightly different from the one explained in the [Modifying blocks](/blog/modifying-blocks-color-theme) blog post. Here we can use `%value%` wildcard to dynamically add the selected value to our CSS variable.
+After defining the new attribute and options for the font family, we now have to add a variable to **_manifest.json_**. We can add it to the `variables` object. This approach is slightly different from the one explained in the blog post. Here we can use `%value%` wildcard to dynamically add the selected value to our CSS variable.
 ```json
 "paragraphFontFamily": [
 	{

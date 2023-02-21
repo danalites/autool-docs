@@ -13,14 +13,14 @@ export default function GetStarted() {
 			bg: useBaseUrl('img/ic-theme-bg.svg'),
 			icon: useBaseUrl('img/ic-theme.svg'),
 			type: 'theme',
-			label: `I want a new WordPress <span class="${component}__label-highlight">theme</span>`,
+			label: `I want to <span class="${component}__label-highlight">use</span> scripts`,
 			link: useBaseUrl('/docs/theme'),
 		},
 		{
 			bg: useBaseUrl('img/ic-plugin-bg.svg'),
 			icon: useBaseUrl('img/ic-plugin.svg'),
 			type: 'plugin',
-			label: `I want a new WordPress <span class="${component}__label-highlight">plugin</span>`,
+			label: `I want to <span class="${component}__label-highlight">develop</span> scripts`,
 			link: useBaseUrl('/docs/plugin'),
 		},
 	];
@@ -56,8 +56,8 @@ export default function GetStarted() {
 			>
 				<Heading
 					componentClass={component}
-					title={'Get started in minutes, not hours'}
-					subtitle={'Boilerplate your project in a few simple steps. Get instructions for setting up an Eightshift Development kit theme or plugin, run a command (or two) and start coding. It\'s that easy!'}
+					title={'Get started in minutes'}
+					subtitle={'Install AuTool app and start using or developing scripts!'}
 				/>
 				<div className={`${component}__content`}>
 					{items}

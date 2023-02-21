@@ -55,7 +55,3 @@ Since our blocks use a predefined structure to make everything register automati
 ## Further reading
 
 Our documentation has all this covered in a lot more detail, so if you would like to better understand the structure of our blocks and components, here are some chapters covering these topics:
-
-- [Architecture concepts](/docs/basics/architecture-concepts)
-- [Block Structure](/docs/basics/block-structure)
-- [Component Structure](/docs/basics/blocks-component-structure)

@@ -15,8 +15,8 @@ export default function Why() {
 			>
 				<Heading
 					componentClass={component}
-					title={'A WordPress boilerplate from the future'}
-					subtitle={'Eightshift Development kit makes building complex WordPress themes and plugins painless. Use and extend our block and component collection to build out dynamic Gutenberg blocks. Extract commonly-used UI elements into reusable components. Forget about block registration and save callbacks. Build a REST route in minutes. You\'ll never want to go back.'}
+					title={'A programming framework to automate your workflow '}
+					subtitle={'AuTool provides a set of APIs to interact with the computers like human does; it is designed to flexible and simple for users to design their own automation flow. <br>I developed this framework to make my life easier. I hope it will help you too. '}
 					align={'left'}
 					titleSize={'medium'}
 				/>

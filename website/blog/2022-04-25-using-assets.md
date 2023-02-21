@@ -46,7 +46,7 @@ import './placeholders/page.png';
 
 ## Using SVG files from manifest
 
-If you recall from a previous blog post about [Modifying Blocks](/blog/modifying-blocks-color-theme), you might have already seen an alternative approach to including SVG files in your block or component.
+If you recall from a previous blog post about you might have already seen an alternative approach to including SVG files in your block or component.
 
 > If you don't have it in your project, be sure to read our blog post about adding blocks and components by using [WP CLI](/blog/adding-blocks-wpcli).
 
