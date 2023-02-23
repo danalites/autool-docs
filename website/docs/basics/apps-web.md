@@ -5,12 +5,28 @@ title: Web-Scripts
 
 [![docs-source](https://img.shields.io/badge/source-eightshift--libs-blue?style=for-the-badge&logo=php&labelColor=2a2a2a)](https://github.com/infinum/eightshift-libs)
 
-## System
-### App activity time
+## Search
+### Watch Tiktok videos
+A simple script that will pick a random video from a list of influencers and open it in the browser. This is just a proof of concept, but it can be used to automate the process of finding new content for your social media channels.
 
-### Switch keyboard according to active app
+![](/img/demos/app-tictok-videos.gif)
 
-## Web
-### Monitor website updates
+### Search memes
 
-### Track purchase and delivery status
+
+## Privacy
+
+### Open link with proxy
+
+### Open incognito or profiles
+
+
+## Automation
+### Yosemite ticket buying
+
+### Seatgeek ticket queuing
+
+### Copy clipboard to webpage
+
+
+

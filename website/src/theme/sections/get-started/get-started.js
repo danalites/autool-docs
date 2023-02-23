@@ -57,7 +57,7 @@ export default function GetStarted() {
 				<Heading
 					componentClass={component}
 					title={'Get started in minutes'}
-					subtitle={'Install AuTool app and start using or developing scripts!'}
+					subtitle={'Make your workflow faster and easier with AuTool scripts.'}
 				/>
 				<div className={`${component}__content`}>
 					{items}

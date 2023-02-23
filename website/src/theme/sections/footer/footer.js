@@ -10,23 +10,23 @@ export default function Footer() {
 
 	const itemsData = [
 		{
-			icon: useBaseUrl('img/ic-boilerplate.svg'),
-			label: 'Eightshift<br />Boilerplate',
-			link: 'https://github.com/infinum/eightshift-boilerplate',
+			icon: useBaseUrl('img/icons/discord.svg'),
+			label: 'Community<br />Support',
+			link: 'https://discord.gg/PPkRTcTA',
 		},
 		{
-			icon: useBaseUrl('img/ic-boilerplate-plugin.svg'),
-			label: 'Eightshift<br />Boilerplate Plugin',
+			icon: useBaseUrl('img/favicon.png'),
+			label: 'Free<br />Membership',
 			link: 'https://github.com/infinum/eightshift-boilerplate-plugin',
 		},
 		{
 			icon: useBaseUrl('img/ic-frontend-libs.svg'),
-			label: 'Eightshift<br />Frontend Libs',
-			link: 'https://github.com/infinum/eightshift-frontend-libs',
+			label: 'AuTool<br /> Example Scripts',
+			link: 'https://github.com/danalites/apps',
 		},
 		{
 			icon: useBaseUrl('img/ic-libs.svg'),
-			label: 'Eightshift<br />Libs',
+			label: 'AuTool<br />Open Source',
 			link: 'https://github.com/infinum/eightshift-libs',
 		}
 	];
@@ -42,7 +42,7 @@ export default function Footer() {
 			<div className={`${component}__item`} key={index}>
 				<a className={`${component}__link`} href={link} target="_blank" rel="noopener noreferrer">
 					<div className={`${component}__icon`}>
-						<img src={icon} />
+						<img src={icon} height="64px" />
 					</div>
 					<div className={`${component}__label`} dangerouslySetInnerHTML={{__html: label}}></div>
 					<Arrow componentClass={component} />

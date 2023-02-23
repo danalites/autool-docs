@@ -23,6 +23,7 @@
 	&__content {
 		@extend .paragraph-size--default;
 		color: var(--global-colors-cape);
+		margin-top: 10px;
 		margin-bottom: 25px;
 		padding-left: 75px;
 		position: relative;
@@ -38,7 +39,7 @@
 			width: 45px;
 			position: absolute;
 			left: 0;
-			top: 20px;
+			top: 10px;
 			background-color: var(--global-colors-nevada);
 			height: 1px;
 

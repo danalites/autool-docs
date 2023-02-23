@@ -18,7 +18,7 @@ export default function Intro() {
 				bgColor={'light'}
 			>
 
-				<div className={`${component}__title`} dangerouslySetInnerHTML={{ __html: 'AuTool scripts' }}></div>
+				<div className={`${component}__title`} dangerouslySetInnerHTML={{ __html: 'AuTool Scripts' }}></div>
 
 				{/* <div className={`${component}__image`}>
 					<img className={`${component}__image-bg`} src={useBaseUrl('img/ic-intro.svg')} />

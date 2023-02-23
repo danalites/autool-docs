@@ -12,7 +12,7 @@ Every project is unique. Logo, colors, fonts, etc. are what define the visual id
 <!--truncate-->
 
 ## Importing fonts into your project
-[Our documentation](/docs/basics/fonts) covers the necessary steps to add a font to your project, but here we'll cover the process in a bit more detail. To start, we need a font (or two). For this example, I'll use **_Source Sans Pro_** and **_Noto Serif_** which I've downloaded from [Google Fonts](https://fonts.google.com/). They are in the `.ttf` format (you may find some which are `.otf`, which will work in the same way), so you need to convert them to `.woff` and `.woff2`. Whatever approach you use is okay - we recommend the following tools:
+Our documentation covers the necessary steps to add a font to your project, but here we'll cover the process in a bit more detail. To start, we need a font (or two). For this example, I'll use **_Source Sans Pro_** and **_Noto Serif_** which I've downloaded from [Google Fonts](https://fonts.google.com/). They are in the `.ttf` format (you may find some which are `.otf`, which will work in the same way), so you need to convert them to `.woff` and `.woff2`. Whatever approach you use is okay - we recommend the following tools:
 - [Convertio](https://convertio.co/ttf-woff/)
 - [Cloud Convert](https://cloudconvert.com/ttf-to-woff)
 - [Everything Fonts](https://everythingfonts.com/ttf-to-woff)

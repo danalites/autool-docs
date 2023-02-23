@@ -1,53 +1,43 @@
 ---
 id: theme
-title: Create a new WordPress theme
-sidebar_label: Create New Theme
+title: Premium Services
+sidebar_label: Premium Services
 ---
 
-Let's create a new theme!
+We provide a set of cloud services for our premium members. You can access these services through REST APIs inside your AuTool scripts. 
 
-Navigate to your WordPress theme folder and run the following command:
+## AI service
+### Paddle Text OCR
+PaddleOCR is state-of-the-art OCR toolkits based on PaddlePaddle. The OCR
 
-```bash
-npx create-wp-project
+```yaml
+task: ocr-from-screen-shoot
+actions: 
+  # Take a screenshot of the screen
+  - key.press(Ctrl+Shift+4)
+
+  # Wait for the screenshot to be saved
+  - window.ocr($env[CLIPBOARD]) => $env[CLIPBOARD]
+  
 ```
 
-The script will prompt you for a theme name and local development URL (used for BrowserSync). After that, your new theme will be installed:
 
-![](/img/setup.gif)
 
-After the script is finished, please follow the instructions provided by the setup script.
+### ChatGPT Pro
 
-All additional steps after the initial setup are done using WP_CLI commands, so please make sure that you have WP-CLI set and ready to use.
+### Stable Diffusion Models
 
-## Specify version to create
+## Web Service
 
-If you want to specify a version of Eightshift Libs or Frontend Libs to use, you can use add two additional attributes to this command to specify a branch or release to use:
+### Cloud task runner
+We provide a cloud task runner service for our members. You can use the service to run AuTool scripts in the cloud. The service is free for the first 1000 tasks. After that, you will be charged $0.01 per task.
 
-* `--eightshiftLibsBranch`
-* `--eightshiftFrontendLibsBranch`
+### VPN service
+We provide a VPN service for our members. You can use the VPN to bypass the geo-restriction of a website.
 
-#### Example:
+### Free reverse proxy
+We provide a free reverse proxy service for our members. You can use the proxy to bypass the geo-restriction of a website.
 
-If you want to pull the `develop` branch of the Eightshift Frontend libs and a specific release of the Eightshift Libs:
-
-```bash
-npx create-wp-project --eightshiftLibsBranch="release/3.1.0" --eightshiftFrontendLibsBranch="develop"
-```
-
-You can also specify the version of the `create-wp-project` script like this:
-
-```bash
-npx create-wp-project@2.0.12 --eightshiftLibsBranch="release/3.1.0" --eightshiftFrontendLibsBranch="develop"
-```
-
-You can get a list of available script arguments by running:
-
-```bash
-npx create-wp-project --help
-```
-
-> You can specify both libraries at once or only one.
-
-## What is next?
-Now that we've set the theme up on your local environment, let's do something with it.
+## Others
+### Developer support
+We will design and ship custom AuTool scripts to fit your particular needs. Professional support is available for all our members. We will help you with the installation, configuration, and integration of the AuTool script into your project.

@@ -16,18 +16,18 @@ function Foot() {
 			>
 				<div className={`${component}__columns`}>
 					<div className={`${component}__column ${component}__column--left`}>
-						Made with &hearts; by &nbsp;
+						Source from &nbsp;
 						<a href="https://eightshift.com/" target="_blank" rel="noopener noreferrer" className={`${component}__link`}>
 							{'Eightshift'}
 						</a>
-						{' team | '}
+						{/* {' team | '}
 						<a href={useBaseUrl('/sitemap.xml')} target="_blank" rel="noopener noreferrer" className={`${component}__link`}>
 							{'Sitemap'}
-						</a>
+						</a> */}
 					</div>
 					<div className={`${component}__column ${component}__column--right`}>
 						<span className={`${component}__copy`}>
-							{'© Eightshift. All rights reserved.'}
+							{'© AuTool. All rights reserved.'}
 						</span>
 						<span className={`${component}__logo-wrap`}>
 							{'Part of '}

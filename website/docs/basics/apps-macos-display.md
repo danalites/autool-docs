@@ -23,12 +23,11 @@ Here comes a bunch of scripts for adjusting your macOS display settings. Make su
 ## Screen
 
 ### Switch screen input source
+*change-screen-source* switches the video input source of the target monitor in a single click; this is useful if you have multiple devices connected to the same monitor, and you want to quickly switch between them without using the buttons on the monitor.
 
-Many modern monitors have multiple inputs, such as HDMI, DisplayPort, and USB-C. This script allows you to quickly switch between them. This is useful if you have multiple devices connected to the same monitor, and you want to quickly switch between them.
-
-:::info
-- Make sure you monitor supports
-- Install the dependencies: 
+:::tip
+- Install [ddcctl](https://github.com/kfix/ddcctl) command line tool before using this script.
+- Make sure you monitor supports DDC(Display Data Channel) control, otherwise this script will not work.
 :::
 
 ### Keep screen awake
@@ -42,6 +41,12 @@ Simple script that keeps your screen awake. It basically simulates a keypress ev
 If instead, you would like to check out what we have prepared regarding the JavaScript Babel and or find out how we ensure that our code is the same across multiple developers, this link is for you:
 
 ### Arrange windows layout
+:::tip
+- Make sure you have [Rectangle](https://github.com/rxhanson/Rectangle) installed in the system.
+- *arrange-window-layout* script is a wrapper for Rectangle. It allows you to quickly arrange the windows layout. 
+:::
+
+
 
 ### Quit windows in batch
 Select the windows you want to quit, and the script will quit them all at once. This is useful if you have a lot of windows open, and you want to quit them all at once.
@@ -54,6 +59,7 @@ Select the windows you want to quit, and the script will quit them all at once. 
 ### Show & hide desktop icons
 Hide or show desktop icons. This is useful if you want to hide the desktop icons when you are presenting your screen. 
 
+![Show & hide desktop icons](/img/demos/app-show-hide-dekstop-icons.gif)
 
 ### Toggle dark mode
 A simple script to toggle dark mode on and off. This is useful if you want to quickly switch between dark mode and light mode, without opening the System Preferences app.

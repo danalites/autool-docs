@@ -3,22 +3,20 @@ module.exports = {
 		'Getting Started': [
 			'intro-install',
 			'intro-user-interface',
+			'intro-hello-world-script',
 			'pricing',
-			'theme',
-			'plugin'
+			'theme'
 		],
 		'Example Scripts': [
 			'basics/apps-macos-display',
 			'basics/apps-macos-runner',
-			'basics/tips-tricks',
-			'basics/architecture-concepts',
 			'basics/apps-web',
+			'basics/apps-status-monitor',
 			{
 				'type': 'category',
 				'label': 'Games-Scripts',
 				'items': [
-					'basics/frontend',
-					'basics/webpack',
+					'basics/game-mihoyo-genshin',
 					'basics/library'
 				]
 			},

@@ -1,8 +1,8 @@
 module.exports = {
-	title: 'AuTool scripts',
-	tagline: 'Let scripts do the trivial work, and you can focus on the important stuff.',
-	url: 'https://eightshift.com',
-	baseUrl: '/',
+	title: 'AuTool Scripts',
+	tagline: 'Let scripts do the trivial work, so you can focus on the important stuff.',
+	url: 'https://danalites.github.io',
+	baseUrl: '/autoo/',
 	favicon: 'img/favicon.png',
 	organizationName: 'danalite',
 	projectName: 'autool-docs',
@@ -37,18 +37,6 @@ module.exports = {
 					to: '/blog',
 					activeBasePath: 'blog',
 					label: 'Blog',
-					position: 'right',
-				},
-				{
-					to: '/storybook/',
-					activeBasePath: 'storybook',
-					label: 'Storybook',
-					position: 'right',
-				},
-				{
-					to: '/sass',
-					activeBasePath: 'sass',
-					label: 'Sass',
 					position: 'right',
 				},
 				{
